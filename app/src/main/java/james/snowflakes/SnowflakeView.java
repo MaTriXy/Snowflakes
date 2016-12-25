@@ -95,7 +95,7 @@ public class SnowflakeView extends View {
                 if (getBoolean((double) (length - iteration) / length)) {
                     int y = (length - iteration) * SNOWFLAKE_SIZE;
 
-                    if (getBoolean(0.5)) y += random.nextInt(length / 3) * SNOWFLAKE_SIZE;
+                    if (getBoolean(0.5)) y += random.nextInt(length / 5) * SNOWFLAKE_SIZE;
                     else y -= random.nextInt(length / 3) * SNOWFLAKE_SIZE;
 
                     canvas.drawBitmap(bitmap, x, y, paint);

@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean isOverlay() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
             return Settings.canDrawOverlays(this);
         else return true;
     }

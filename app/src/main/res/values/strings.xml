@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Snowflakes</string>
+
+    <string name="service_name">Snowflakes Service</string>
+    <string name="service_desc">This service needs to be enabled in order to detect window content changes.</string>
+    <string name="accessibility_service">Accessibility Service</string>
+    <string name="draw_overlays">Draw Overlays</string>
+    <string name="setup_done">All set up!</string>
+    <string name="setup_done_desc">Switch screens in any app and watch it snow...</string>
+</resources>
